@@ -66,9 +66,8 @@
             <div class="col-md-4 col-sm-6 wow zoomIn" data-wow-delay="0.1s">
                 <div class="tour_container">
                     <div class="img_container">
-                        <a href="single_tour.html">
-                        <img src="/images/tour_box_1.jpg" class="img-responsive" alt="" height="533" width="800">
-                        <div class="ribbon top_rated"></div>
+                        <a>
+                        <%= link_to image_tag('/images/tour_box_1.jpg' , :class=>"img-responsive",  :alt=>"" ,:height=>"533", :width=>"800" ), page_path('about')%>
                         <div class="short_info">
                             <i class="icon_set_1_icon-44"></i>Historic Buildings<span class="price"><sup>$</sup>39</span>
                         </div>
