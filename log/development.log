@@ -24140,3 +24140,2223 @@ ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
   Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
   Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
   Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (95.3ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 21:50:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.9ms)
+Completed 200 OK in 178ms (Views: 165.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2016-09-13 21:50:44 -0700
+
+
+Started GET "/assets/home-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for ::1 at 2016-09-13 21:50:44 -0700
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2016-09-13 21:50:44 -0700
+
+
+Started GET "/assets/turbolinks-ec43e9d221200f76649ada6a93a32e1b.js?body=1" for ::1 at 2016-09-13 21:50:44 -0700
+
+
+Started GET "/assets/home-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2016-09-13 21:50:44 -0700
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-13 21:50:44 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.9ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-13 21:50:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (113.8ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-13 21:50:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (162.8ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-13 21:50:45 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (137.0ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2016-09-13 21:50:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.6ms)
+
+
+Started GET "/apple-touch-icon.png" for ::1 at 2016-09-13 21:50:48 -0700
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.4ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 21:50:48 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 89ms (Views: 88.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/shoppe/orders" for ::1 at 2016-09-13 21:50:49 -0700
+
+ActionController::RoutingError (No route matches [GET] "/shoppe/orders"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (181.3ms)
+
+
+Started GET "/shoppe/orders" for ::1 at 2016-09-13 21:50:51 -0700
+
+ActionController::RoutingError (No route matches [GET] "/shoppe/orders"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (101.5ms)
+
+
+Started GET "/shopppe" for ::1 at 2016-09-13 21:50:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/shopppe"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (4.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (91.5ms)
+
+
+Started GET "/shoppe/orders" for ::1 at 2016-09-13 21:50:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/shoppe/orders"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (86.0ms)
+
+
+Started GET "/shoppe" for ::1 at 2016-09-13 21:50:57 -0700
+
+ActionController::RoutingError (No route matches [GET] "/shoppe"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.0ms)
+
+
+Started GET "/single_tour.html" for ::1 at 2016-09-13 21:53:25 -0700
+
+ActionController::RoutingError (No route matches [GET] "/single_tour.html"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.5ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 21:53:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-13 21:53:26 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 83ms (Views: 82.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-13 21:53:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (134.6ms)
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-13 21:53:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (132.6ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-13 21:53:26 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (112.4ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-13 21:53:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (98.9ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-13 21:53:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (101.6ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-13 21:53:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (190.9ms)
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-13 21:53:27 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (11.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (133.4ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-13 21:53:28 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (100.8ms)
+
+
+Started GET "/pages/usr1/about" for ::1 at 2016-09-13 21:53:29 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/about"}
+  Rendered pages/usr1/about.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 108ms (Views: 102.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-13 21:53:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (150.1ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-13 21:53:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (136.2ms)
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-13 21:53:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.0ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-13 21:53:29 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (92.1ms)
+
+
+Started GET "/pages/usr1/about" for ::1 at 2016-09-13 22:06:53 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/about"}
+  Rendered pages/usr1/about.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2016-09-13 22:06:53 -0700
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 22:07:24 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 75ms (Views: 74.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 23:05:46 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for ::1 at 2016-09-13 23:05:46 -0700
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2016-09-13 23:05:46 -0700
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2016-09-13 23:05:46 -0700
+
+
+Started GET "/assets/turbolinks-ec43e9d221200f76649ada6a93a32e1b.js?body=1" for ::1 at 2016-09-13 23:05:46 -0700
+
+
+Started GET "/assets/home-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2016-09-13 23:05:46 -0700
+
+
+Started GET "/stylesheets/bootstrap.css.map" for ::1 at 2016-09-13 23:06:03 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.3ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 23:06:13 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/bootstrap.css.map" for ::1 at 2016-09-13 23:06:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.1ms)
+
+
+Started GET "/stylesheets/bootstrap.css.map" for ::1 at 2016-09-13 23:06:13 -0700
+
+ActionController::RoutingError (No route matches [GET] "/stylesheets/bootstrap.css.map"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.8ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 23:06:44 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 48.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 23:21:54 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 70ms (Views: 69.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-13 23:53:51 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 65ms (Views: 63.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-14 22:36:31 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 234ms (Views: 220.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-14 23:30:51 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-14 23:32:42 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 73ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-14 23:42:34 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (3.4ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-14 23:43:29 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-15 21:54:55 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 142ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-15 21:55:09 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 118ms (Views: 117.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr1/posts/qsf2fw" for ::1 at 2016-09-15 22:19:15 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/posts/qsf2fw"}
+  Rendered pages/usr1/posts/qsf2fw.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 104ms (Views: 102.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home-0bc27e2168727cafa1252f703137df60.js?body=1" for ::1 at 2016-09-15 22:19:15 -0700
+
+
+Started GET "/assets/jquery-4075e3b7b3964707c653f61b66f46dec.js?body=1" for ::1 at 2016-09-15 22:19:15 -0700
+
+
+Started GET "/assets/home-2be930bcbfd3c3e00190e2193dda5c7c.css?body=1" for ::1 at 2016-09-15 22:19:15 -0700
+
+
+Started GET "/assets/turbolinks-ec43e9d221200f76649ada6a93a32e1b.js?body=1" for ::1 at 2016-09-15 22:19:15 -0700
+
+
+Started GET "/assets/jquery_ujs-f9f4ae336c0d19804775e0e2c8749423.js?body=1" for ::1 at 2016-09-15 22:19:15 -0700
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 22:19:19 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (4.9ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 116ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 22:31:46 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 119ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 22:34:59 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 22:59:38 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 23:03:29 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 61ms (Views: 60.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 23:13:57 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/sdfjw21" for ::1 at 2016-09-15 23:23:59 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/sdfjw21"}
+  Rendered pages/usr2/posts/sdfjw21.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/fksdf2" for ::1 at 2016-09-15 23:24:01 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/fksdf2"}
+  Rendered pages/usr2/posts/fksdf2.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 85ms (Views: 83.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/posts/image09.jpg" for ::1 at 2016-09-15 23:24:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/posts/image09.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (117.3ms)
+
+
+Started GET "/pages/usr2/posts/fksdf2" for ::1 at 2016-09-15 23:25:23 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/fksdf2"}
+  Rendered pages/usr2/posts/fksdf2.html.erb within layouts/application (2.5ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/fksdf2" for ::1 at 2016-09-15 23:26:54 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/fksdf2"}
+  Rendered pages/usr2/posts/fksdf2.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 71ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/fksdf2" for ::1 at 2016-09-15 23:27:29 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/fksdf2"}
+  Rendered pages/usr2/posts/fksdf2.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 66ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/fksdf2" for ::1 at 2016-09-15 23:28:12 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/fksdf2"}
+  Rendered pages/usr2/posts/fksdf2.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pages/usr2/posts/index_5.html" for ::1 at 2016-09-15 23:28:22 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr2/posts/index_5.html"}
+Completed 404 Not Found in 20ms (ActiveRecord: 0.0ms)
+
+ActionController::RoutingError (No such page: usr2/posts/index_5.html):
+  high_voltage (3.0.0) app/controllers/concerns/high_voltage/static_page.rb:23:in `invalid_page'
+  high_voltage (3.0.0) app/controllers/concerns/high_voltage/static_page.rb:9:in `block (2 levels) in <module:StaticPage>'
+  activesupport (4.2.5) lib/active_support/rescuable.rb:114:in `instance_exec'
+  activesupport (4.2.5) lib/active_support/rescuable.rb:114:in `block in handler_for_rescue'
+  activesupport (4.2.5) lib/active_support/rescuable.rb:80:in `call'
+  activesupport (4.2.5) lib/active_support/rescuable.rb:80:in `rescue_with_handler'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:15:in `rescue_with_handler'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:32:in `rescue in process_action'
+  actionpack (4.2.5) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.5) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.5) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.5) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.5) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.5) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.5) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.5) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.5) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.5) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `call'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:76:in `dispatch'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:45:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  shoppe (1.1.2) lib/shoppe/settings_loader.rb:10:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:25:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.6ms)
+
+
+Started GET "/" for ::1 at 2016-09-15 23:41:00 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 76ms (Views: 75.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2016-09-15 23:41:01 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 64ms (Views: 62.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-15 23:41:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (105.3ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-15 23:41:01 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (123.3ms)
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-15 23:41:02 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (5.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (140.0ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-15 23:41:02 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.4ms)
+
+
+Started GET "/pages/usr1/about" for ::1 at 2016-09-15 23:41:07 -0700
+Processing by HighVoltage::PagesController#show as HTML
+  Parameters: {"id"=>"usr1/about"}
+  Rendered pages/usr1/about.html.erb within layouts/application (0.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_footer.html.erb (0.0ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/autumn.jpg" for ::1 at 2016-09-15 23:41:07 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/autumn.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (99.5ms)
+
+
+Started GET "/images/summer.jpg" for ::1 at 2016-09-15 23:41:07 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/summer.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (104.9ms)
+
+
+Started GET "/images/spring.jpg" for ::1 at 2016-09-15 23:41:08 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/spring.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.2ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (121.2ms)
+
+
+Started GET "/images/winter.jpg" for ::1 at 2016-09-15 23:41:08 -0700
+
+ActionController::RoutingError (No route matches [GET] "/images/winter.jpg"):
+  actionpack (4.2.5) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.0.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.4) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.4) lib/rack/server.rb:286:in `start'
+  railties (4.2.5) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<main>'
+
+
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Users/NinaPig/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.1ms)
